@@ -1,0 +1,33 @@
+/* 🌸 Global Theme – Black & Baby Pink */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Accent colors */
+:root {
+  --pink: #f4a6c1;
+  --pink-dark: #e48fb0;
+  --card-bg: #161616;
+  --border: rgba(244, 166, 193, 0.25);
+}

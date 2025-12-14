@@ -1,0 +1,107 @@
+.sweets-page {
+  padding: 40px;
+  background: #0f0f0f;
+  min-height: 100vh;
+}
+
+.title {
+  color: var(--pink);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sweets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.sweet-card {
+  background: #161616;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 20px rgba(244, 166, 193, 0.08);
+}
+
+.sweet-card h3 {
+  color: var(--pink);
+  margin-bottom: 6px;
+}
+
+.category {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-bottom: 8px;
+}
+
+.qty {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.sweet-card button {
+  width: 100%;
+  padding: 10px;
+  background: var(--pink);
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.sweet-card button:disabled {
+  background: #333;
+  color: #aaa;
+  cursor: not-allowed;
+}
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.filters input,
+.filters select {
+  padding: 10px 12px;
+  background: #161616;
+  border: 1px solid var(--border);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.filters input::placeholder {
+  color: #aaa;
+}
+
+.admin-panel {
+  background: #161616;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.admin-panel h3 {
+  color: var(--pink);
+  margin-bottom: 12px;
+}
+
+.admin-panel input,
+.admin-panel select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  background: #0f0f0f;
+  border: 1px solid var(--border);
+  color: #fff;
+  border-radius: 6px;
+}
+
+.admin-panel button {
+  background: var(--pink);
+  color: #000;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+}
