@@ -1,4 +1,4 @@
-# 🍬 Sweet Shop Management System
+<img width="1920" height="831" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/e0a38fae-6282-4640-afa0-a71936748797" /># 🍬 Sweet Shop Management System
 
 A full-stack **Sweet Shop Management System** built using **React** and **Node.js**, implementing secure authentication, protected APIs, inventory management, and a clean single-page frontend experience.
 
@@ -74,83 +74,86 @@ Backend APIs were developed following **Test-Driven Development principles**:
 - Test output verifies API correctness
 
 ### Run Backend Tests
+
 ```bash
 cd backend
 npm test
-⚙️ Local Setup Instructions
-1️⃣ Clone the Repository
+```
+## ⚙ Local Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/<your-username>/sweet-shop-management.git
 cd sweet-shop-management
-
+```
 2️⃣ Backend Setup
+```bash
+
 cd backend
 npm install
 npm run dev
-
-
+```
 Backend runs on:
 http://localhost:3000
 
 3️⃣ Frontend Setup
+```bash
 cd frontend/sweet-frontend
 npm install
 npm run dev
-
-
+```
 Frontend runs on:
 http://localhost:5173
 
 📸 Screenshots
 
-Login / Signup page
+Login / Signup Page
+<img width="1920" height="831" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/61b6194e-bf1a-48d4-a22c-46f18982e097" />
 
-Sweets dashboard
+<img width="1920" height="843" alt="Screenshot (511)" src="https://github.com/user-attachments/assets/cd3872f4-9132-4bed-98e1-10d9a58f3a8c" />
+
+
+Sweets Dashboard
+<img width="1920" height="871" alt="Screenshot (513)" src="https://github.com/user-attachments/assets/20faa5c9-d14f-41a9-805e-f16624557fc7" />
+
+<img width="1920" height="881" alt="Screenshot (515)" src="https://github.com/user-attachments/assets/2c8e164b-06da-4c00-861e-8871abaa6bed" />
+
 
 Purchase button disabled when stock is zero
+<img width="1920" height="871" alt="Screenshot (513)" src="https://github.com/user-attachments/assets/103f3d5c-2c96-468b-920e-764c77177323" />
 
-My AI Usage
+
+
+---
+🤖 AI Usage
 AI Tools Used
-
 ChatGPT
-
-How I Used AI
-
+---
+How AI Was Used
 Debugging backend authentication issues (JWT, bcrypt)
 
-Understanding MongoDB Atlas connection and errors
+Understanding MongoDB Atlas connections and errors
 
 Structuring Express routes and middleware
 
-Assisting with React state handling and API integration
+Assisting with React state management and API integration
 
 Improving test cases and debugging failing tests
-
+---
 Reflection
-
-AI was used as a development assistant, not for copying code.
-All generated suggestions were reviewed, modified, and implemented manually.
-AI significantly improved debugging speed and helped reinforce backend and frontend concepts.
-
+AI was used strictly as a development assistant and not for copying code.
+All suggestions were reviewed, modified, and implemented manually.
+AI significantly improved debugging speed and reinforced full-stack concepts.
+---
 🧠 Design & Architecture Notes
-
 Backend handles authentication and inventory logic to ensure data integrity
 
 Frontend focuses on user experience and real-time updates
 
-JWT middleware protects all sensitive routes
+JWT middleware protects sensitive routes
 
-Clean separation between frontend and backend folders
+Clean separation between frontend and backend
 
-📦 Deliverables Checklist
 
-✅ Public GitHub repository
 
-✅ Backend with MongoDB Atlas integration
-
-✅ Frontend Single Page Application
-
-✅ Automated backend tests
-
-Final Note
-
-This project demonstrates a complete full-stack workflow, including backend APIs, database integration, frontend SPA, authentication, testing, and responsible AI usage aligned with modern development practices.
